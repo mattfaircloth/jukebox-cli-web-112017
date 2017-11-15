@@ -68,8 +68,8 @@ def run(my_songs)
  elsif help_answer == "help"
    help
  elsif help_answer == "list"
-   list(songs)
+   list(my_songs)
  else
-   play(songs)
+   play(my_songs)
   end
 end
