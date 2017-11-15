@@ -17,3 +17,8 @@ puts "I accept the following commands:
 - play : lets you choose a song to play
 - exit : exits this program"
 end
+
+def list(songs)
+  songs.each_with_index do |song, index|
+    puts "#{index + 1}. #{song}"
+end
